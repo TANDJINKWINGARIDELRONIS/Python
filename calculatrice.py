@@ -8,7 +8,7 @@ windows=Tk()
 windows.title("Scientific calculator")
 windows.config(bg="powder blue")
 windows.resizable(width=False,height=False)
-windows.geometry("470x420")
+windows.geometry("900x600")
 
 calculator=Frame(windows,bg="black")
 calculator.grid()
@@ -21,11 +21,11 @@ def quitter() :
 #modifier la largeur de la calculatrice
 def scientifique() :
     windows.resizable(width=False,height=False)
-    windows.geometry("850x450")
+    windows.geometry("1700x600")
 
 def standard() :
     windows.resizable(width=False,height=False)
-    windows.geometry("470x420")
+    windows.geometry("900x600") 
    
 #ecran d'affichage de la calculatrice
 ecran=Entry(calculator,font=("arial",20,"bold"),bg="powder blue",bd=30,width=28,justify=RIGHT)
